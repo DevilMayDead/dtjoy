@@ -1,0 +1,30 @@
+{
+  "name": "@dtjoy/components",
+  "version": "1.0.0",
+  "description": "@dtjoy/components",
+  "keywords": [
+    "dtjoy",
+    "dtjoy-components",
+    "@dtjoy/components"
+  ],
+  "license": "MIT",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "dependencies": {
+    "classnames": "^2.3.2"
+  },
+  "authors": [
+    "xiyan wx-zhaog@dtjoy.com"
+  ]
+}
